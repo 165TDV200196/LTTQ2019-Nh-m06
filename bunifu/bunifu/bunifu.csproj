@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{49938CCC-A08B-445C-A541-0239962E0263}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>bunifu</RootNamespace>
+    <AssemblyName>bunifu</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>bunifu.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Animator">
+      <HintPath>..\..\..\..\..\Downloads\Animator\Tester\bin\Debug\Animator.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\..\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="FlatButton">
+      <HintPath>..\..\..\..\..\Downloads\FlatButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel">
+      <HintPath>..\Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="JGradient Panel">
+      <HintPath>..\..\..\..\..\Downloads\JGradient Panel.dll</HintPath>
+    </Reference>
+    <Reference Include="JMaterialTextbox">
+      <HintPath>..\..\..\..\..\Downloads\JMaterialTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="JMetroTextBox">
+      <HintPath>..\..\..\..\..\Downloads\JMetroTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="JTextBox">
+      <HintPath>..\..\..\..\..\Downloads\JTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="JTextBox2">
+      <HintPath>..\..\..\..\..\Downloads\JTextBox2.dll</HintPath>
+    </Reference>
+    <Reference Include="JThinButton">
+      <HintPath>..\..\..\..\..\Downloads\JThinButton.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\Connection.cs" />
+    <Compile Include="Class\Connec_doanhthu.cs" />
+    <Compile Include="Class\Connec_hoadon.cs" />
+    <Compile Include="Class\Connec_khachhang.cs" />
+    <Compile Include="Class\Connec_khohang.cs" />
+    <Compile Include="Class\Connec_nhanvien.cs" />
+    <Compile Include="Class\Connec_sanpham.cs" />
+    <Compile Include="Class\doimatkhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\doimatkhau.Designer.cs">
+      <DependentUpon>doimatkhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\showdoanhthu.cs" />
+    <Compile Include="Class\ucl_doanhthu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class\ucl_doanhthu.Designer.cs">
+      <DependentUpon>ucl_doanhthu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\ucl_hoadon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class\ucl_hoadon.Designer.cs">
+      <DependentUpon>ucl_hoadon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\ucl_khachhang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class\ucl_khachhang.Designer.cs">
+      <DependentUpon>ucl_khachhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\ucl_khohang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class\ucl_khohang.Designer.cs">
+      <DependentUpon>ucl_khohang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\ucl_sanpham.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class\ucl_sanpham.Designer.cs">
+      <DependentUpon>ucl_sanpham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\ucl_nhanvien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class\ucl_nhanvien.Designer.cs">
+      <DependentUpon>ucl_nhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\welcome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Class\welcome.Designer.cs">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Home\home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Home\home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Login\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Login\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Form\Login\quenmatkhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Login\quenmatkhau.Designer.cs">
+      <DependentUpon>quenmatkhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Login\Taotaikhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Login\Taotaikhoan.Designer.cs">
+      <DependentUpon>Taotaikhoan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Class\doimatkhau.resx">
+      <DependentUpon>doimatkhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\ucl_doanhthu.resx">
+      <DependentUpon>ucl_doanhthu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\ucl_hoadon.resx">
+      <DependentUpon>ucl_hoadon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\ucl_khachhang.resx">
+      <DependentUpon>ucl_khachhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\ucl_khohang.resx">
+      <DependentUpon>ucl_khohang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\ucl_sanpham.resx">
+      <DependentUpon>ucl_sanpham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\ucl_nhanvien.resx">
+      <DependentUpon>ucl_nhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Class\welcome.resx">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Home\home.resx">
+      <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Login\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Form\Login\quenmatkhau.resx">
+      <DependentUpon>quenmatkhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Login\Taotaikhoan.resx">
+      <DependentUpon>Taotaikhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

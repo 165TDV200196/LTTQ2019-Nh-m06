@@ -1,0 +1,53 @@
+c:\users\hongha\documents\visual studio 2013\Projects\bunifu\bunifu\bin\Debug\bunifu.exe.config
+c:\users\hongha\documents\visual studio 2013\Projects\bunifu\bunifu\bin\Debug\bunifu.exe
+c:\users\hongha\documents\visual studio 2013\Projects\bunifu\bunifu\bin\Debug\bunifu.pdb
+c:\users\hongha\documents\visual studio 2013\Projects\bunifu\bunifu\bin\Debug\Bunifu_UI_v1.52.dll
+c:\users\hongha\documents\visual studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.Properties.Resources.resources
+c:\users\hongha\documents\visual studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.csproj.GenerateResource.Cache
+c:\users\hongha\documents\visual studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.exe
+c:\users\hongha\documents\visual studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.pdb
+C:\Users\HONGHA\documents\visual studio 2013\Projects\bunifu\bunifu\bin\Debug\Animator.dll
+C:\Users\HONGHA\documents\visual studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.Login.resources
+C:\Users\HONGHA\documents\visual studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.Taotaikhoan.resources
+C:\Users\HONGHA\documents\visual studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.home.resources
+C:\Users\HONGHA\documents\visual studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.quenmatkhau.resources
+C:\Users\HONGHA\documents\visual studio 2013\Projects\bunifu\bunifu\bin\Debug\JMaterialTextbox.dll
+C:\Users\HONGHA\documents\visual studio 2013\Projects\bunifu\bunifu\bin\Debug\JMetroTextBox.dll
+C:\Users\HONGHA\documents\visual studio 2013\Projects\bunifu\bunifu\bin\Debug\JTextBox2.dll
+C:\Users\HONGHA\documents\visual studio 2013\Projects\bunifu\bunifu\bin\Debug\FlatButton.dll
+C:\Users\HONGHA\documents\visual studio 2013\Projects\bunifu\bunifu\bin\Debug\JThinButton.dll
+C:\Users\HONGHA\documents\visual studio 2013\Projects\bunifu\bunifu\bin\Debug\JGradient Panel.dll
+C:\Users\HONGHA\documents\visual studio 2013\Projects\bunifu\bunifu\bin\Debug\JTextBox.dll
+C:\Users\HONGHA\Documents\Visual Studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.Class.Ucl_nv.resources
+C:\Users\HONGHA\Documents\Visual Studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.Class.ucl_sanpham.resources
+C:\Users\HONGHA\documents\visual studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.csprojResolveAssemblyReference.cache
+C:\Users\HONGHA\documents\visual studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.Class.ucl_khachhang.resources
+C:\Users\HONGHA\documents\visual studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.Class.ucl_doanhthu.resources
+C:\Users\HONGHA\Documents\Visual Studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.Class.ucl_khohang.resources
+C:\Users\HONGHA\Documents\Visual Studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.Class.ucl_hoadon.resources
+C:\Users\HONGHA\Documents\Visual Studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.Class.welcome.resources
+C:\Users\HONGHA\Documents\Visual Studio 2013\Projects\bunifu\bunifu\obj\Debug\bunifu.Class.doimatkhau.resources
+C:\Users\HONGHA\Documents\Visual Studio 2013\Projects\bunifu\bunifu\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\HONGHA\Documents\Visual Studio 2013\Projects\bunifu\bunifu\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\HONGHA\Desktop\bunifu\bunifu\bin\Debug\bunifu.exe.config
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.exe
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.pdb
+C:\Users\HONGHA\Desktop\bunifu\bunifu\bin\Debug\bunifu.exe
+C:\Users\HONGHA\Desktop\bunifu\bunifu\bin\Debug\bunifu.pdb
+C:\Users\HONGHA\Desktop\bunifu\bunifu\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\HONGHA\Desktop\bunifu\bunifu\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.csprojResolveAssemblyReference.cache
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.Class.doimatkhau.resources
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.Class.ucl_doanhthu.resources
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.Class.ucl_hoadon.resources
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.Class.ucl_khachhang.resources
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.Class.ucl_khohang.resources
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.Class.ucl_sanpham.resources
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.Class.Ucl_nv.resources
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.Class.welcome.resources
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.home.resources
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.Login.resources
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.Properties.Resources.resources
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.quenmatkhau.resources
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.Taotaikhoan.resources
+C:\Users\HONGHA\Desktop\bunifu\bunifu\obj\Debug\bunifu.csproj.GenerateResource.Cache
